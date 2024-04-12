@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.f1{
+    width:350px;
+    height: 100px;
+    border: 1px solid black;
+   display: flex;
+}
+div:nth-of-type(1){
+    flex-grow: 1;
+}
+div:nth-of-type(2){
+    flex-grow: 1;
+}
+div:nth-of-type(3){
+    flex-grow: 1;
+}
+div:nth-of-type(4){
+    flex-grow: 3;
+    
+}
+div:nth-of-type(5){
+    flex-grow: 1;
+}
+
+</style>
+<body>
+    <h1>the flex grow property</h1>
+    <div class="f1">
+        <div style="background-color:aqua ;">A</div>
+        <div style="background-color: beige;">B</div>
+        <div style="background-color: blue;">C</div>
+        <div style="background-color:brown ;">D</div>
+        <div style="background-color:chartreuse ;">E</div>
+    </div>
+</body>
+</html>
